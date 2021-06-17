@@ -11,6 +11,10 @@ export class GithubAppComponent implements OnInit {
   
   constructor() { }
 
+  public searchUser(){
+    
+  }
+
   ngOnInit(): void {
   }
 

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms'
+// import { FormsModule } from '@angular/forms'
 import { AboutComponent } from './components/about/about.component';
 import { GithubAppComponent } from './components/github-app/github-app.component';
 import { GithubProfileComponent } from './components/github-profile/github-profile.component';
@@ -11,7 +11,7 @@ import { GithubProfileCardComponent } from './components/github-profile-card/git
 import { GithubProfileDataComponent } from './components/github-profile-data/github-profile-data.component';
 import { GithubReposComponent } from './components/github-repos/github-repos.component';
 import { FormsModule } from '@angular/forms';
-
+// import { GithubService} from './services/github';
 
 @NgModule({
   declarations: [
@@ -28,9 +28,9 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    // HttpClientModule
   ],
-  providers: [],
+  // providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
