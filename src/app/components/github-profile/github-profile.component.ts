@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ProfileService } from '../services/profile'
 @Component({
   selector: 'app-github-profile',
   templateUrl: './github-profile.component.html',
